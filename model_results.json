@@ -1,0 +1,21 @@
+{
+  "best_model_name": "Linear Regression (poly 3)",
+  "best_r2": 0.8604,
+  "best_rmse": 12.0938,
+  "best_mae": 9.5897,
+  "pdf_baselines": {
+    "Linear Regression": 0.857732,
+    "Lasso Regression": 0.857667,
+    "Ridge Regression": 0.85773,
+    "Decision Tree Regression": 0.834457,
+    "Random Forest Regression": 0.846875
+  },
+  "family_best": {
+    "Linear Regression": {"model": "Linear Regression (poly 3)", "mae": 9.5897, "mse": 146.2599, "rmse": 12.0938, "r2": 0.8604},
+    "Lasso Regression": {"model": "Lasso (poly 2, alpha=0.01)", "mae": 9.6922, "mse": 149.0078, "rmse": 12.2069, "r2": 0.8577},
+    "Ridge Regression": {"model": "Ridge (poly 1, alpha=0.01)", "mae": 9.6919, "mse": 149.0035, "rmse": 12.2067, "r2": 0.8577},
+    "Decision Tree Regression": {"model": "Decision Tree (depth=5, leaf=5)", "mae": 9.6813, "mse": 148.8952, "rmse": 12.2023, "r2": 0.8578},
+    "Random Forest Regression": {"model": "Random Forest (depth=5, leaf=3)", "mae": 9.6422, "mse": 147.8474, "rmse": 12.1593, "r2": 0.8588}
+  },
+  "n_rows": 10000
+}
